@@ -3,12 +3,12 @@
 
 
 **Description**
-This program will take a .wav file and will take a singl-channel WAV file at any sample rate s and produce a WAV file containing the same signal at a sample rate of s/2. This is achieved by using a FIR filter with a transition band of 5% of the maximum input frequency.
+ This program will take a .wav file and will take a single-channel WAV file at any sample rate s and produce a WAV file containing the same signal at a sample rate of s/2. This is achieved by using a FIR filter with a transition band of 5% of the maximum input frequency. 
 **How it went**
-The project started off well, but quickly got confusing when it came to implmemntion the FIR filter. I struggled fully understanding how I would implment the FIR filter with the coefficents. But, I was able to get it to work and filter samples by reducing their sample rate by 50%.
+How it went The project started off well but quickly got confusing when it came to the implementation of the FIR filter. I struggled fully understand how I would implement the FIR filter with the coefficients. But, I was able to get it to work and filter samples by reducing their sample rate by 50%.
 
 **What needs to be done**
-This program does everything that is required. It generates a a new WAV file that has s/2 samples of the original sample. A WAV with a sample size of 877056 with a sample rate of 44100 will have a sample size of 438528 and a sample rate of 22050 when it is ran through the filter.
+This program does everything that is required. It generates a new WAV file that has s/2 samples of the original sample. A WAV with a sample size of 877056 with a sample rate of 44100 will have a sample size of 438528 and a sample rate of 22050 when it is run through the filter.
 
 
 **To build this program**
