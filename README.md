@@ -14,8 +14,8 @@ This program does everything that is required. It generates a a new WAV file tha
 **To build this program**
 To be able to build this program, you will need to install the following to get the program to run. 
 
-*Installs the sfml library that is used*
+*Installs the sfml library that is used:*
 **sudo apt-get install libsfml-dev** 
 
-*Installs the g++ compiler that is used to compile the program*
+*Installs the g++ compiler that is used to compile the program:*
 **sudo apt-get install g++**
