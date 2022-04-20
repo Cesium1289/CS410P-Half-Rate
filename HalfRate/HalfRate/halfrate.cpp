@@ -50,7 +50,6 @@ int main(int argc, char* argv[])
 
 		//save new sample to a .wav
 		string file = argv[1];
-		file.append("c");
 		file.insert(0, "r");
 		result.saveToFile(file);
 	}
