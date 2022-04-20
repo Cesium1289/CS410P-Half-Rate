@@ -1,2 +1,10 @@
 ﻿  halfrate.cpp
-  HalfRate.vcxproj -> C:\Users\Carson\Desktop\HalfRate\x64\Debug\HalfRate.exe
+C:\Users\Carson\Documents\GitHub\CS410P-Half-Rate\HalfRate\HalfRate\halfrate.cpp(88,27): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=sf::Int16
+          ]
+C:\Users\Carson\Documents\GitHub\CS410P-Half-Rate\HalfRate\HalfRate\halfrate.cpp(96,92): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Carson\Documents\GitHub\CS410P-Half-Rate\HalfRate\HalfRate\halfrate.cpp(195,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Carson\Documents\GitHub\CS410P-Half-Rate\HalfRate\HalfRate\halfrate.cpp(98): warning C4172: returning address of local variable or temporary: outputBuffer
+  HalfRate.vcxproj -> C:\Users\Carson\Documents\GitHub\CS410P-Half-Rate\HalfRate\x64\Debug\HalfRate.exe
